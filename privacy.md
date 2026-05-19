@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: April 21, 2026**
+**Last updated: May 18, 2026**
 
 WearShot ("we", "our", or "us") is operated by Markus Hammerschmid. This Privacy Policy explains how we handle your information when you use the WearShot app ("App").
 
@@ -21,11 +21,14 @@ When you use the virtual try-on feature, you provide photos from your camera or 
 Photos are transmitted to our AI processing service solely to generate the requested outfit visualization result. We do not store, retain, or share your photos beyond what is necessary to fulfill your request.
 
 ### Usage Data
-We collect limited, anonymized usage data to improve the App, including generation counts and feature interactions. This data is stored locally on your device.
+If you opt in during onboarding, we collect anonymized usage data to improve the App — including feature interactions, generation counts, and navigation events. This data is processed by **PostHog** and stored on servers located in the European Union (Frankfurt, Germany). No personally identifiable information is included. You can withdraw consent at any time in Settings → Privacy.
 
 ### Purchase Information
 If you subscribe to WearShot Premium, purchases are processed through the Apple App Store. We use RevenueCat to manage subscription status. RevenueCat may collect your App Store receipt and subscription state. We do not have access to your payment details.  
 See RevenueCat's privacy policy: [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
+
+### Crash Reports
+If the App crashes or encounters an unexpected error, anonymized crash data (including device type, OS version, and a stack trace) may be automatically sent to **Sentry** to help us diagnose and fix the issue. No photos, names, or personally identifiable information are included in crash reports.
 
 ### Name (Optional)
 During onboarding, you may enter your first name. This is stored locally on your device only and is never transmitted to our servers.
@@ -54,7 +57,9 @@ Uploaded images are securely transmitted to **Google Gemini API** (a service pro
 See Google's privacy policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 We also share data with:
-- **RevenueCat** — to manage in-app subscriptions.
+- **RevenueCat** — to manage in-app subscriptions. See RevenueCat's privacy policy: [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
+- **PostHog** — for anonymized usage analytics, only if you have opted in. Data is stored on EU servers. See PostHog's privacy policy: [https://posthog.com/privacy](https://posthog.com/privacy)
+- **Sentry** — for crash reporting and error tracking. See Sentry's privacy policy: [https://sentry.io/privacy/](https://sentry.io/privacy/)
 - **Apple** — as required for App Store purchases and analytics.
 
 ---
@@ -72,6 +77,7 @@ We may retain minimal technical metadata (not images) for a limited period to su
 You may:
 - Delete all locally stored data by uninstalling the App
 - Manage or cancel your subscription via your Apple ID settings
+- Withdraw analytics consent at any time in Settings → Privacy
 - Contact us to request information about your data or to request deletion of any data we may hold
 
 ---
